@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQZ81MZu0poyD0dAGRiPO/WmerOVp9fTu7Si/+jIg/APpiGcfPlNJXEgLeLaxid56DFkhNo8d4zu2FvX1NnHQw==",
+  "dgSpecHash": "+OCUvilwEPZNBzHtmc+cj49r53urC+K0df5oL4KtbG7SXc6TH2CYGPN9ASPWef7MaThW6fceQMVDgxx3UbtiqA==",
   "success": true,
-  "projectFilePath": "D:\\ashu\\Traveliser\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj",
+  "projectFilePath": "D:\\ashu\\GIT\\Traveliser\\SourceCode\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prateek Aggrawal\\.nuget\\packages\\microsoft.data.sqlite\\8.0.5\\microsoft.data.sqlite.8.0.5.nupkg.sha512",
     "C:\\Users\\Prateek Aggrawal\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.5\\microsoft.data.sqlite.core.8.0.5.nupkg.sha512",

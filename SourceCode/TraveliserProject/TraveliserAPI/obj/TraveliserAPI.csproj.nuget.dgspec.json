@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ashu\\Traveliser\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj": {}
+    "D:\\ashu\\GIT\\Traveliser\\SourceCode\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj": {}
   },
   "projects": {
-    "D:\\ashu\\Traveliser\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj": {
+    "D:\\ashu\\GIT\\Traveliser\\SourceCode\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ashu\\Traveliser\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj",
+        "projectUniqueName": "D:\\ashu\\GIT\\Traveliser\\SourceCode\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj",
         "projectName": "TraveliserAPI",
-        "projectPath": "D:\\ashu\\Traveliser\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj",
+        "projectPath": "D:\\ashu\\GIT\\Traveliser\\SourceCode\\TraveliserProject\\TraveliserAPI\\TraveliserAPI.csproj",
         "packagesPath": "C:\\Users\\Prateek Aggrawal\\.nuget\\packages\\",
-        "outputPath": "D:\\ashu\\Traveliser\\TraveliserProject\\TraveliserAPI\\obj\\",
+        "outputPath": "D:\\ashu\\GIT\\Traveliser\\SourceCode\\TraveliserProject\\TraveliserAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Prateek Aggrawal\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,84 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var x = Model;
+
+    List<AirportVM> airports = new List<AirportVM>();
+    if (TempData["airports"] != null)
+    {
+        airports = (List<AirportVM>)TempData["airports"];
+    }
+
+    int a = 1;
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<div class="row" style="height:520px;">
+    <div class="col-3" style="background-color:lightgray;padding-bottom:25px; padding-top:25px;border-radius:20px">
+        From:
+        <select class="form-control" onchange="selectDesFrom()" id="idDesFrom">
+            <option value="0">-select-</option>
+            @{
+                foreach (var airport in airports)
+                {
+                    <option value="@airport.IATA">
+                        @airport.AirportName - @airport.IATA (@airport.CityName)
+                    </option>
+                }
+            }
+        </select>
+        <br />
+        To:
+        <select class="form-control">
+            <option value="0">-select-</option>
+            @{
+                foreach (var airport in airports)
+                {
+                    <option value="@airport.IATA" style="display:none" class="opto @airport.IATA" myattr="desto_@airport.IATA">
+                        @airport.AirportName - @airport.IATA (@airport.CityName)
+                    </option>
+                }
+            }
+        </select>
+        <br />
+        Travel Date:
+        <input type="date" class="form-control" />
+        <br />
+        Return Date:
+        <input type="date" class="form-control" />
+
+        <br />
+        Passengers:<br />
+        <select class="form-control-sm">
+            <option>Adults</option>
+        </select>
+        <select class="form-control-sm">
+            <option>Children</option>
+        </select>
+        <select class="form-control-sm">
+            <option>Infant</option>
+        </select>
+        <br />
+        <br />
+        <button class="btn-primary btn-lg">Search</button>
+    </div>
+    <div class="col-9" style=" padding-left:35px; padding-top:25px; height:inherit">
+        b
+    </div>
+</div>
+
+<script>
+
+    function selectDesFrom() {
+        console.log($("#idDesFrom").val());
+        $(".opto").hide();
+
+        if ($("#idDesFrom").val() != "0") {
+            $(".opto").show();
+            $(".opto." + $("#idDesFrom").val()).hide();
+        }
+    }
+</script>
